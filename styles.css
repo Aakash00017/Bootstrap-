@@ -1,0 +1,33 @@
+.carousel {
+    height: 80vh; /* Set the height of the carousel */
+}
+
+.carousel-inner, .carousel-item {
+    height: 100%; /* Ensure inner elements fill the height */
+}
+
+.carousel-item img {
+    object-fit: cover; /* Ensure images fit properly */
+    height: 100%; /* Make images fill the height */
+    width: 100%;
+    object-position: 50% 15%; /* Moves the image downward */
+}
+
+
+.custom-btn {
+    font-size: 18px; /* Increase font size */
+    padding: 8px 24px; /* Adjust padding */
+}
+
+.outline-text {
+    color: transparent; /* Make text transparent */
+    -webkit-text-stroke: 1px white; /* White outline */
+    text-stroke: 1px white; /* Standard property */
+    transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+.outline-text:hover {
+    color: transparent; /* Ensure text stays transparent */
+    -webkit-text-stroke: 1px white; /* Keep white outline on hover */
+    text-stroke: 1px white; /* Keep white outline on hover */
+}
